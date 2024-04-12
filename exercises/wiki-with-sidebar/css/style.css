@@ -6,7 +6,7 @@ body {
     font-family: sans-serif
 }
 
-#two-columns-1 {
+.two-columns-1 {
     display: flex;      
 }
 
