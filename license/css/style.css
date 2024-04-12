@@ -6,3 +6,21 @@
 
     Good luck, and have fun!
 */
+
+#license {
+    box-sizing: border-box;
+    width: 700px;
+}
+#content {
+    box-sizing: ;
+    margin: 50px;
+    border-radius: 15px;
+    border: 2px ridge black;
+}
+h1 {
+    color: blue;
+}
+h4 {
+    background-color: blue;
+}
+
