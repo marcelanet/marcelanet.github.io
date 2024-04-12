@@ -1,3 +1,29 @@
 img {
     width: 100%;
 }
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin: 0px auto;
+}
+
+h2 {
+    font-family: cursive;
+    color: pink;
+    font-style: oblique;
+    text-align: center;
+}
+
+p {
+    color: #b56363;
+    font-size: small;
+    font-style: oblique;
+    text-align: center;
+
+}
