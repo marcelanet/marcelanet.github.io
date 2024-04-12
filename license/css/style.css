@@ -10,17 +10,54 @@
 #license {
     box-sizing: border-box;
     width: 700px;
+    box-shadow: inset;
+    display: inline-block;
+    /* How can I resize it to make it smaller */
 }
 #content {
+    background-color: fuchsia;
     box-sizing: ;
     margin: 50px;
     border-radius: 15px;
     border: 2px ridge black;
+    /* not sure if this is a whole box, but when I tried to delete the border 
+    dissapeared so */
 }
 h1 {
-    color: blue;
+    color: #0e0ea0;
+    font-family: 'Franklin Gothic Medium';
 }
 h4 {
-    background-color: blue;
+    background-color: #0e0ea0;
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 25px;
+    /*how can i adjust the text with the backround color to be in the middle*/
 }
 
+#id-and-expiration {
+    background-color: red;
+    /*how do i target spans to align side by side*/
+    }
+
+
+#address {
+    background-color: blueviolet;
+}
+
+#personal-info {
+    background-color: aqua;
+    /* again, not sure how to make it be on one side, aligned with 
+    (address element) */
+}
+
+#right-side {
+    background-color: rgb(43, 226, 101);
+    width: 200px;
+    height: 200px;
+    align-items: right;
+    justify-content: right;
+    /* why is the content not aligning to the side */
+
+}
