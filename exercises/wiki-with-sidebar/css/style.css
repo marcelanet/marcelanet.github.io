@@ -6,13 +6,13 @@ body {
     font-family: sans-serif
 }
 
-#two-columns {
+#two-columns-1 {
     display: flex;      
 }
 
 #sidebar {
     background-color: #fcd4da;
-    width: 250px;
+    width: 300px;
     padding: 24px;
     border-right: 5px solid #80007c;
 
@@ -36,4 +36,14 @@ body {
     padding: 48px;
     flex: 1;
     
+}
+#sidebar-1 {
+    background-color: #fcd4da;
+    width: 300px;
+    padding: 24px;
+    border-left: 5px solid #80007c;
+    order: 2;
+}
+h2 {
+    text-align: center;
 }
