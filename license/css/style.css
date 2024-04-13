@@ -11,53 +11,64 @@
     box-sizing: border-box;
     width: 700px;
     box-shadow: inset;
-    display: inline-block;
+    background-color: #f0eee5;
     /* How can I resize it to make it smaller */
 }
 #content {
-    background-color: fuchsia;
-    box-sizing: ;
-    margin: 50px;
-    border-radius: 15px;
-    border: 2px ridge black;
-    /* not sure if this is a whole box, but when I tried to delete the border 
-    dissapeared so */
+    vertical-align: top;
 }
 h1 {
     color: #0e0ea0;
     font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
 }
 h4 {
     background-color: #0e0ea0;
     text-align: center;
     color: white;
-    width: 300px;
-    height: 25px;
-    /*how can i adjust the text with the backround color to be in the middle*/
+    font-size: 14px;
+    padding: 12px;
 }
-
-#id-and-expiration {
-    background-color: red;
-    /*how do i target spans to align side by side*/
+#left-side, #right-side {
+    display: inline-block;
+    font-size: 10px;
+}
+#left-side {
+    width: 65%;
+}
+#right-side {
+    width: 34%;
+}
+#id-and-expiration  div {
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+   
     }
-
+#id-and-expiration div span {
+    color: red;
+}
 
 #address {
     background-color: blueviolet;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 #personal-info {
     background-color: aqua;
-    /* again, not sure how to make it be on one side, aligned with 
-    (address element) */
+    display: inline-block;
 }
-
+#data-fields div data-left {
+    display: inline-block;
+}
+#small-pic {
+    
+}
 #right-side {
     background-color: rgb(43, 226, 101);
     width: 200px;
     height: 200px;
     align-items: right;
     justify-content: right;
-    /* why is the content not aligning to the side */
-
 }
