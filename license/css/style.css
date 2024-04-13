@@ -11,11 +11,14 @@
     box-sizing: border-box;
     width: 700px;
     box-shadow: inset;
-    background-color: #f0eee5;
-    /* How can I resize it to make it smaller */
+    background: linear-gradient(to bottom right,#f5da7f,rgb(248, 168, 19));
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
 }
 #content {
     vertical-align: top;
+    margin: 24px;
 }
 h1 {
     color: #0e0ea0;
@@ -43,32 +46,67 @@ h4 {
     color: blue;
     font-weight: bold;
     display: inline-block;
-   
+    vertical-align: top;
     }
 #id-and-expiration div span {
-    color: red;
+    color: red;    
 }
 
 #address {
-    background-color: blueviolet;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
+    padding: 12px;
 }
-
 #personal-info {
-    background-color: aqua;
     display: inline-block;
+    height: 48px;
+    width: auto;
 }
-#data-fields div data-left {
+#data-fields {
     display: inline-block;
+    font-size: 12px;  
+    vertical-align: middle;
+}
+#data-left {
+    display: inline-block;
+    color: blue;
+}
+#data-left span {
+    color: red;
+}
+#data-right {
+    display: inline-block;
+    color: blue;
+}
+#data-right span {
+    color: red;
 }
 #small-pic {
-    
+    float: left;
+    box-sizing: content-box;
 }
 #right-side {
-    background-color: rgb(43, 226, 101);
     width: 200px;
-    height: 200px;
+    height: 250px;
     align-items: right;
     justify-content: right;
 }
+#donor {
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+}
+#real-id {
+    display: inline-block;
+    color: white;
+}
+#signature {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* I couldn't figure out how to re-size the images alone to fit the "parent" box,
+and the vertical aling top for id and expiration also did not work. */
