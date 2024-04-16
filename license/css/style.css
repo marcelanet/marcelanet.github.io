@@ -47,7 +47,7 @@ h4 {
     font-weight: bold;
     display: inline-block;
     vertical-align: top;
-    }
+}
 #id-and-expiration div span {
     color: red;    
 }
@@ -58,14 +58,11 @@ h4 {
     padding: 12px;
 }
 #personal-info {
-    display: inline-block;
-    height: 48px;
-    width: auto;
+    display: flex;
 }
 #data-fields {
-    display: inline-block;
-    font-size: 12px;  
-    vertical-align: middle;
+    display: flex;
+    font-size: 12px;
 }
 #data-left {
     display: inline-block;
@@ -81,15 +78,16 @@ h4 {
 #data-right span {
     color: red;
 }
-#small-pic {
-    float: left;
-    box-sizing: content-box;
+#small-pic img {
+    width: 50%;
 }
+
 #right-side {
     width: 200px;
     height: 250px;
-    align-items: right;
-    justify-content: right;
+}
+#right-side img {
+    width: 200px
 }
 #donor {
     display: inline-block;
