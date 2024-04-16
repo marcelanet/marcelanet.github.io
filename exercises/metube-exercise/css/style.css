@@ -26,7 +26,7 @@ body {
     color: #111
 }
 #header #tube {
-    background-color: orangered;
+    background-color: pink;
     color: white;
     padding: 4px;
     border-radius: 12px;
@@ -66,7 +66,7 @@ body {
 
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, crimson, orange);
+    background: radial-gradient(at top left, pink, rgb(245, 217, 221));
     border-radius: 8px;
 }
 
@@ -89,4 +89,8 @@ body {
 
 .metube-item .video-channel {
     margin-bottom: 4px;
+}
+
+.metube-item .thumbnail-placeholder img {
+    width: 100%;
 }
