@@ -8,9 +8,9 @@ body {
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 250px;
     grid-template-areas: 
-    "header . . "
+    "header header header"
     "sidebar-left main sidebar-right"
     ;
 }
@@ -19,9 +19,7 @@ body {
     grid-area: header;
     padding: 0px 36px;
     font-weight: bolder;
-
-    /* How can I center the header in a way that iot covers all 2 culumns space 
-    and add a (<hr>) or divider & resize it to make it bigger */
+    border-bottom: 2px solid;
 }
 #m {
     color: #f333f3;  
@@ -46,18 +44,58 @@ body {
 img {
     width: 100%;
 }
-/* I need to change the size of the image in a way that the hight is equal to 
-the hight of sibling columns */
-
+p {
+    font-size: 12px;
+}
 #main {
     grid-area: main;
     padding: 24px;
 }
-/* h3 is not aligned with img column top, how can I correct that -  need to 
-separate each button to be able to create a separate box per each one */
+h3 {
+    border-bottom: 1px solid;
+    padding: 12px;
+}
+h5 #condition {
+    font-weight: lighter;
+}
+h5 #price {
+    font-weight: lighter;
+}
+h5 #number {
+    font-size: larger;
+}
+#date {
+    font-style: italic;
+    color: #3535ef;
+}
+.botton1 {
+    padding: 5px;
+    background-color: #1515d5be;
+    border-radius: 5px;  
+}
+.botton2 {
+    padding: 5px;
+    background-color: #44a6debe;
+    border-radius: 5px;
+}
+.botton3 {
+    padding: 5px;
+    background-color: #4589b3be;
+    border-radius: 5px;
+}
 
 #sidebar-right {
     grid-area: sidebar-right;
     padding: 24px;
 }
-/* need to separate content and designate to two separate boxes */
+.shop-conditions {
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.seller-info {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 12px;
+}
