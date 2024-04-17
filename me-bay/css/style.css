@@ -13,7 +13,6 @@ body {
     "header . . "
     "sidebar-left main sidebar-right"
     ;
-    gap: 5px;
 }
 
 #header {
@@ -42,20 +41,23 @@ body {
 
 #sidebar-left {
     grid-area: sidebar-left;
+    padding: 24px;
 }
 img {
-    width: 200px;
+    width: 100%;
 }
 /* I need to change the size of the image in a way that the hight is equal to 
 the hight of sibling columns */
 
 #main {
     grid-area: main;
+    padding: 24px;
 }
 /* h3 is not aligned with img column top, how can I correct that -  need to 
 separate each button to be able to create a separate box per each one */
 
 #sidebar-right {
     grid-area: sidebar-right;
+    padding: 24px;
 }
 /* need to separate content and designate to two separate boxes */
