@@ -18,7 +18,7 @@ body {
 }
 
 #sidebar h2 {
-    background-color: #0b8f82;
+    background-color: #f0ced3;
     margin: 0px;
     padding: 12px;
     color: white;
@@ -27,19 +27,19 @@ body {
 
 #sidebar ul {
     background-color: #efefef;
-    border: 1px solid #0b8f82;
+    border: 1px solid #f1c0c8;
     margin: 0px 0px 36px;
     list-style-type: none;
     padding: 0px 12px;
 }
 
 #sidebar a {
-    color: #0b8f82;
+    color: #db8f9b;
     text-decoration: none;
 }
 
 #sidebar li {
-    border-bottom: 1px solid #0b8f82;
+    border-bottom: 1px solid white;
     padding: 8px 0px;
 }
 
@@ -50,4 +50,16 @@ body {
 #main {
     grid-area: content;
     margin: 0px 36px;
+}
+img {
+    width: 300px;
+}
+
+h1 {
+    color: #db8f9b;
+    border-bottom: 1px solid  #f1c0c8;
+}
+
+h3 {
+    color: #ecb1ba;
 }
