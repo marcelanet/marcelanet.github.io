@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(255, 243, 244);
 }
 
 #grid-layout {
@@ -16,7 +17,7 @@ body {
 }
 
 #header {
-    grid-area: header
+    grid-area: header;
     padding: 0px 36px;
 }
 #header a {
@@ -34,6 +35,7 @@ body {
 #sidebar {
     grid-area: sidebar;
     padding: 0px 24px;
+    background-color: rgb(244, 214, 219);
 }
 #sidebar ul {
     padding: 12px 0px;
@@ -93,4 +95,7 @@ body {
 
 .metube-item .thumbnail-placeholder img {
     width: 100%;
+    aspect-ratio: 17 / 10;
+    border-radius: 8px;
 }
+
