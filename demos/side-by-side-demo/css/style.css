@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 3px solid whitesmoke;
+    margin: 36px;
+    padding: 36px;
+    flex: 1;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.card h3 {
+    margin: 0px;
+    font-size: 36px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+#card-section {
+    background-color: #5b00ed;
+    padding: 48px;
+}
+
+
+
