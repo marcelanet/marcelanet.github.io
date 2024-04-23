@@ -41,5 +41,42 @@ body {
     padding: 48px;
 }
 
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
 
+.media-text {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
 
+.media-text .image-container {
+    flex: 1;
+}
+
+.text-container h3 {
+    font-size: 48px;
+}
+
+.text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3f0791;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+
+.media-text .text-container {
+    flex: 1;
+    padding: 36px;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
