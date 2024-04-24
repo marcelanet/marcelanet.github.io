@@ -1,0 +1,44 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    padding: 24px;
+    margin: 24px;
+    border: 12px solid #fed403;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border: 8px solid #fed403;
+
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    background-color: #fed403;
+}
+
+.attack {
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
