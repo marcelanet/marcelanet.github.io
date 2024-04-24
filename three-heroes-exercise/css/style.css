@@ -6,77 +6,138 @@ body {
     margin: 0px;
     font-family: "inter", sans-serif;
 }
-
-#header {
-    background-color: #498300;
-}
-
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0px auto;
 }
-
-.nav {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.nav a {
-    color: #efefef;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 25px;
-    transition: background-color 0.5s;
-}
-
-.nav a:hover {
-    background-color: #6e430e;
-}
-
-#plant-hero {
-    background-image: url(../images/hero1.png);
+#hero-1 {
+    background-image: url(../images/snowy-wasteland.jpg);
     background-size: cover;
     height: 100vh;
-    background-position: bottom right;
+    background-position: bottom;
     display: flex;
     align-items: center;
 }
-
-#plant-hero h1 {
-    font-family: "staatliches", sans-serif;
+#hero-1 h1 {
+    font-family: 'Lucida Grande';
     margin: 0px;
     font-size: 100px;
+    color: #151554;
 }
-
-#plant-hero p {
+#hero-1 p {
     margin: 10px 0px 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans Regular';
+    font-size: 24px;
 }
-
-#plant-hero .btn {
+#hero-1 .btn {
     display: inline-block;
-    border: 2px solid #498300;
+    background-color: #151554;
+    border-radius: 5px;
     padding: 15px 55px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: #498300;
+    color: white;
     transition: 
         background-color 0.5s,
         color 0.5s
     ;
 }
-
-#plant-hero .btn:hover {
-    background-color: #498300;
-    color: #efefef;
+#hero-1 .btn:hover {
+    background-color: #2d7444;
+    color: white;
 }
 
-#footer {
+/* Hero-2 */
+
+#hero-2 {
+    background-image: url(../images/misty-mountains.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    align-items: top;
+    
+}
+#hero-2 h1 {
+    font-family: 'Lucida Grande';
+    margin: 50px;
+    font-size: 80px;
+    color: #2d7444;
+}
+#hero-2 p {
+    margin: 50px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #02521d;
+}
+#hero-2 .btn {
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #2d7444;
+    padding: 15px 55px;
     text-align: center;
-    color: #efefef;
-    background-color: #111;
-    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#hero-2 .btn:hover {
+    background-color: #b4640f;
+    color: white;
+}
+
+
+/* Hero-3 */
+
+#hero-3 {
+    background-image: url(../images/desert-tumbleweed.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;   
+    align-items: top;
+    justify-content: flex-end;
+}
+/* Justify content confused me as the content did not align to the right, nor 
+the image when using background-position*/
+
+#hero-3 h1 {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    margin: 50px;
+    font-size: 100px;
+    color: #e0dcdc;
+}
+#hero-3 p {
+    margin: 50px;
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+}
+#hero-3 .btn {
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #e69418;
+    border: 1px solid white;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+#hero-3 .btn:hover {
+    background-color: white;
+    color: black;
 }
 
