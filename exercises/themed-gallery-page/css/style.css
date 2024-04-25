@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    background-color: #eadedff2;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url(../images/pexels-stefanstefancik-96920.jpg);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    background-position: center right;
+}
+#hero h1 {
+    background-color: #d6c2c5f2;
+    padding: 10px 50px
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+h3 {
+    background-color: #d6c2c5f2;
+    padding: 20px;
+    font-weight: lighter;
+}
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border: 8px solid #be8c93f2;
+    background-color: #ece4e5f2;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    border: 10px solid #d6c2c5f2;
+    margin: 12px;
+}
