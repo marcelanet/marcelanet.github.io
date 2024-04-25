@@ -14,19 +14,16 @@
     border: 12px solid #fed403;
     max-width: 360px;
 }
-
 img {
     width: 100%;
     border: 8px solid #fed403;
 
 }
-
 .pokemon-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .details {
     text-align: center;
     font-weight: bold;
@@ -34,11 +31,33 @@ img {
     font-style: italic;
     background-color: #fed403;
 }
-
 .attack {
     display: flex;
-    padding: 24px;
-    justify-content: space-between;
+    padding: 12px;
     align-items: center;
+    gap: 5px;
+    font-size: 15px;
 }
-
+.bold {
+    font-weight: bold;
+}
+.data {
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid #fed403;
+    padding: 5px;
+}
+.description {
+    border-bottom: 2px solid;
+    padding: 5px;
+    width: 100%;
+}
+#pokemon-card-1, #pokemon-card-2  {
+    background: linear-gradient(to bottom right,#56e769,#87bd8e, #1d6026);   
+}
+#pokemon-card-3 {
+    background: linear-gradient(to bottom right,#e7aa2f,#e95a21, #ec9034);
+}
+#pokemon-card-4 {
+    background: linear-gradient(to bottom right,#45e3ec,#96eaee, #28f7ca);
+}
