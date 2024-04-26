@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+/* Hero */
+#hero-1 {
+    background: linear-gradient(to bottom, #e7c3ad00, #e9d7c311, #e9d7c300, #e0ac8d22, #e0ac8d),
+    url(../images/pexels-jessbaileydesign-2736613.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+}
+#hero-1 h1 {
+    font-family: 'Lucida Grande';
+    margin: 0px;
+    font-size: 80px;
+    color: #85635a;
+}
+#hero-1 p {
+    margin: 10px 0px 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans Regular';
+    font-size: 24px;
+    color: #a22630;
+}
+
+/* cards */
+
+#card-section {
+    background-color: #e0ac8d;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    flex: 1;
+    border: 2px solid #e6c2b6;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient(-50deg, #eac9c4, #e6c2b6, #ebb0b6);
+    display: flex;
+    flex-direction: column;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #a25f4c;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+    color: #a22630;
+    text-align: center;
+}
+
+.card a {
+    color: #e9dad1;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #bd8c74;
+    background-color: #bd8c74;
+    transition: 
+      backround-color .5s,
+      color .5s;  
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: #a22630;
+    object-fit: cover;
+}
+
+
+/* Gallery */
+
+#hero-2 {
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#gallery {
+    background: linear-gradient(-50deg, #eac9c4, #e6c2b6, #ebb0b6);
+}
+
+#hero-2 .container {
+    background-color: #ffe4da;
+    padding: 24px;
+    margin: 0px;
+}
+
+#hero-2 h1 {
+    font-family: 'Lucida Grande';
+    margin: 0px;
+    font-size: 80px;
+    color: #85635a;
+}
+#hero-2 p {
+    margin: 10px 0px 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans Regular';
+    font-size: 24px;
+    color: #a22630;
+}
+
+h3 {
+    margin: 0px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #a22630;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 300px;
+    flex: 1;
+    object-fit: cover;
+    margin: 12px;
+    border: 2.5px solid #ffe4da;
+    box-shadow: inset;
+    border-radius: 8px;
+}
+
+
+
