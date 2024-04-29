@@ -173,9 +173,8 @@ h3 {
     flex: 1;
     object-fit: cover;
     margin: 12px;
-    border: 6px solid #ffe4da;
-    box-shadow: inset;
-    border-radius: 8px;
+    border: 3px solid #a22630;
+    box-shadow: inset;  
 }
 
 
