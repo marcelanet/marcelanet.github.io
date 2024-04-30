@@ -59,3 +59,17 @@ body {
     justify-content: space-between;
     background:linear-gradient(to bottom, yellowgreen, olive);
 }
+#footer {
+    background: linear-gradient(to bottom, teal, #01482e);
+    color: white;
+    padding: 12px;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
