@@ -9,8 +9,8 @@ body {
     background: 
     linear-gradient(
         to bottom, 
-        green, 
-        #3e6d3e
+        rgb(250, 231, 234), 
+        pink
         );
     display: flex;
     justify-content: space-between;
