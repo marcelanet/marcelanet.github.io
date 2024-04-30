@@ -5,39 +5,30 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-#navbar {
+
+/* client 1 */
+
+#client1, #navbar {
     background: 
     linear-gradient(
         to bottom, 
-        rgb(250, 231, 234), 
-        pink
+        #f4b669, 
+        #ddbd8d
         );
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#navbar #logo {
-    margin-right: auto;
-
+#navbar h1 {
+    color: #b2502f;
+    padding: 24px;
 }
 #navbar a {
     text-decoration: none;
-    color: white;
-    padding: 24px;
-}
-#navbar img {
-    width: 200px;
-}
-#navbar .cta-button {
-    background-color: white;
-    color: green;
-    border-radius: 36px;
-    padding: 16px 24px;
-    font-size: 20px;
+    color: #b2502f;
     font-weight: bold;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 24px;
+    padding: 24px;
+    font-size: 18px;
 }
 #layout {
     width: 800px;
@@ -49,27 +40,12 @@ body {
     position: sticky;
     top: 0px;
 }
-#navbar-bottom a {
-    text-decoration: none;
-    color: white;
-    padding: 12px 36px;
+
+.cta-button {
+    background-color: white;
+    border-radius: 28px;
+    margin-right: 15px;
 }
-#navbar-bottom {
-    display: flex;
-    justify-content: space-between;
-    background:linear-gradient(to bottom, yellowgreen, olive);
-}
-#footer {
-    background: linear-gradient(to bottom, teal, #01482e);
-    color: white;
-    padding: 12px;
-}
-#footer a {
-    text-decoration: none;
-    color: white;
-}
-#footer-navbar {
-    width: 800px;
-    margin: 0px auto;
-    justify-content: space-between;
-}
+
+/* client 2 */
+
