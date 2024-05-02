@@ -8,27 +8,58 @@ body {
 
 /* client 1 */
 
-#client1, #navbar {
-    background: 
-    linear-gradient(
-        to bottom, 
-        #f4b669, 
-        #ddbd8d
-        );
+#client1, #navbar-1 {
+    background-color: #b7b7a4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-1 h1 {
+    color: #b56449;
+    padding: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+#navbar-1 a {
+    text-decoration: none;
+    color: #b56449;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 50px; 
+}
+#links {
+    text-align: end;
+    margin-right: 24px;
+    padding: 12px;
+}
+#navbar-1 {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+
+/* client 2 */
+
+#client2, #navbar {
+    background-color: #e8e492;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #navbar h1 {
-    color: #b2502f;
+    color: #555330;
     padding: 24px;
+    text-align: center;
+    font-weight: bold;
 }
 #navbar a {
     text-decoration: none;
-    color: #b2502f;
+    color: #555330;
     font-weight: bold;
-    padding: 24px;
     font-size: 18px;
+    margin-left: 180px;
+   
 }
 #layout {
     width: 800px;
@@ -40,12 +71,52 @@ body {
     position: sticky;
     top: 0px;
 }
-
 .cta-button {
-    background-color: white;
+    background-color:  #bbb986;
+    border: solid 1px white;
     border-radius: 28px;
     margin-right: 15px;
+    padding: 12px;
 }
 
-/* client 2 */
-
+/* client3 */
+#navbar-top {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+#navbar-top h1 {
+    margin-left: 24px;
+    font-weight: bold;
+    font-size: 42px;
+}
+#navbar-top h2 {
+    margin-right: 12px;
+    margin-top: 40px;
+}
+/* how can the content be justified middle to aligned it with h1? */
+#navbar-middle {
+    background-color: black;
+    padding: 24px;
+    text-align: center;
+}
+#navbar-middle h1 {
+    color: orange;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;  
+}
+#navbar-middle a {
+    color: orange;
+    text-decoration: none;
+    padding: 0px 36px;
+}
+#bottom {
+    background-color: orange;
+}
+#bottom a {
+    text-decoration: none;
+    padding: 24px;
+    color: black;
+}
