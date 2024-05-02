@@ -41,19 +41,19 @@ body {
 
 /* client 2 */
 
-#client2, #navbar {
+#client2, #navbar-2 {
     background-color: #e8e492;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#navbar h1 {
+#navbar-2 h1 {
     color: #555330;
     padding: 24px;
     text-align: center;
     font-weight: bold;
 }
-#navbar a {
+#navbar-2 a {
     text-decoration: none;
     color: #555330;
     font-weight: bold;
@@ -61,13 +61,7 @@ body {
     margin-left: 180px;
    
 }
-#layout {
-    width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
-    height: 200vh;
-}
-#navbar {
+#navbar-2 {
     position: sticky;
     top: 0px;
 }
