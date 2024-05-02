@@ -108,6 +108,7 @@ body {
 }
 #bottom {
     background-color: orange;
+    text-align: center;
 }
 #bottom a {
     text-decoration: none;
