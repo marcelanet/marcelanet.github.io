@@ -442,12 +442,60 @@ body {
 
 
 /* Tablet */
-@media screen and (max-width: 1000px) and (min-width:801px) {
 
+
+@media screen and (max-width: 1000px), (min-width: 800px) {
+    #grid-layout {
+        display: grid;
+        flex-direction: column;
+        grid-template-areas: 1fr 1fr 1fr;
+        align-content: center;
+    }
+
+     #header h1 {
+            font-size: 48px;
+    }
+    #nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: cover;
+    }
+   /* why is the newsletter card size smaller? */    
 }
 
 
 /* Mobile */
 @media screen and (max-width: 800px) {
+    #grid-layout, #banner-container { 
+        display: flex;
+        flex-direction: column;  
+        grid-template-areas: 1fr;
+        /* by adding 1fr the cards layout changes - disapear */
+    }
+    #search-bar, #search-button {
+        display: none;
+    }
+    #header {
+        display: flex;
+        flex-direction: column;
+        /*how can the content be centered (align/justify content did not work)*/
+    }
+    #header h1 {
+        font-size: 36px;
+    }
+    #nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: cover;
+    }
+    #banner-container,
+#card-1,
+#card-2,
+#card-3,
+#aside,
+#main {
+    background-color: #00000077;
+
+}
 
 }
