@@ -46,6 +46,20 @@ body {
 
 .dropdown-menu {
     position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+    opacity 0.5s, 
+    visibility 0.5s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
 }
 
 .dropdown-menu a {
@@ -56,4 +70,15 @@ body {
 
 #navbar .dropdown-menu a:hover {
     background: #fbd4db;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+
+    }
+    .dropdown-menu {
+        display: none;
+    }
+    
 }
