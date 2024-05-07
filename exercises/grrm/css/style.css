@@ -444,24 +444,27 @@ body {
 /* Tablet */
 
 
-@media screen and (max-width: 1000px), (min-width: 801px) {
+@media screen and (max-width: 1000px) and (min-width: 801px) {
     #grid-layout {
         display: grid;
-        align-content: center;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-        "left-accent  navbar  navbar  navbar  right-accent"
-        "left-accent  banner  banner  banner  right-accent"
-        "left-accent  card-1  card-2  card-3  right-accent";
+        "navbar  navbar  navbar"
+        "banner  banner  banner"
+        "card-1  card-2  card-3"
+        "aside   blog    blog"
+        "footer  footer  footer"
+        "bottom  bottom  bottom";
     }
 
      #header h1 {
             font-size: 48px;
     }
     #nav {
-        display: flex;
         flex-wrap: wrap;
-        width: cover;
+    }
+    #nav a {
+        flex: 200px;
     }
     
    /* why is the newsletter card size smaller? */    
@@ -472,12 +475,10 @@ body {
 @media screen and (max-width: 800px) {
     #grid-layout, #banner-container { 
         display: grid;
-        grid-template-areas: 1fr 1fr 1fr;  
-        "left-accent  navbar  navbar  navbar  right-accent"
-        "left-accent  banner  banner  banner  right-accent"
-        "left-accent  card-1  card-2  card-3  right-accent"
+        grid-column: 1fr;
+        grid-template-areas:  
+        "card-1  card-2  card-3"
     }
-        /* by adding 1fr the cards layout changes - disapear */
     }
     #search-bar, #search-button {
         display: none;
@@ -485,7 +486,6 @@ body {
     #header {
         display: flex;
         flex-direction: column;
-        /*how can the content be centered (align/justify content did not work)*/
     }
     #header h1 {
         font-size: 36px;
