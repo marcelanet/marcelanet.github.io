@@ -59,7 +59,6 @@ body {
     font-weight: bold;
     font-size: 18px;
     margin-left: 180px;
-   
 }
 #navbar-2 {
     position: sticky;
@@ -74,10 +73,12 @@ body {
 }
 
 /* client3 */
+
 #navbar-top {
     background-color: orange;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
     padding: 12px;
 }
 #navbar-top h1 {
@@ -89,7 +90,6 @@ body {
     margin-right: 12px;
     margin-top: 40px;
 }
-/* how can the content be justified middle to aligned it with h1? */
 #navbar-middle {
     background-color: black;
     padding: 24px;
