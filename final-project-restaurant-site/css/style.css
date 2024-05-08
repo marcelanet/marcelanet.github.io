@@ -9,26 +9,36 @@ body {
     background: 
     linear-gradient(
         to bottom, 
-        #ef683bad, 
+        #fcdc24, 
         #f8a72b,
-        #fcdc24
+        #ef683b
         );
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#navbar #logo {
+#logo {
     margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
-#navbar a {
-    text-decoration: none;
-    color: white;
-    padding: 24px;
-}
 #navbar img {
-    width: 200px;
+    width: 100px;
+    padding-top: 15px;
 }
+.links {
+    padding: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
 #navbar .cta-button {
     background-color: white;
     color: #ef683b;
@@ -41,8 +51,7 @@ body {
     margin-right: 24px;
 }
 #layout {
-    width: 800px;
-    margin: 48px auto;
+    width: 100%;
     font-size: 24px;
     height: 200vh;
 }
@@ -51,17 +60,35 @@ body {
     top: 0px;
 }
 
+#hero {
+    background-image: url(../images/pexels-yente-van-eynde-1263034-2403392.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+#hero h1 {
+    color: #ffffff;
+    font-size: 100px;
+}
+
 #footer {
     background: linear-gradient(to bottom, #ef683b, #f8a72b, #fcdc24);
     color: white;
     padding: 12px;
+    width: 100%;
+    text-align: center;
 }
 #footer a {
     text-decoration: none;
     color: white;
+    font-size: 12px;
+    padding: 24px;
+    margin: 50px;  
 }
-#footer-navbar {
-    width: 800px;
-    margin: 0px auto;
-    justify-content: space-between;
+span {
+    font-size: 15px;
 }
