@@ -153,3 +153,49 @@ h2, h4, h5 {
     flex: 1;
     text-align: center;
 }
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+    #navbar #logo {
+        margin-right: 30px;
+    }
+    #navbar .cta-button {
+        background-color: white;
+        color: #ef683b;
+        border-radius: 36px;
+        padding: 12px 22px;
+        font-size: 12px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: center;
+        margin-right: 24px;
+        margin-bottom: 8px;
+    }
+    #two-columns {
+        flex-direction: column;
+    }
+    #text {
+        color: #ffffff;
+        text-align: center;
+        font-size: 24px;
+        background-color: transparent;
+        font-weight: bold;
+        flex-direction: column;
+        align-items: center;
+    }
+    h5 {
+        display: none;
+    }
+    #footer-navbar {
+        flex-direction: column;
+        font-size: 12px; 
+        align-items: center;
+    }
+}
+
+/* flex direction and aling items did not work in the footer-navbar 
+not sure why, also having issues aligning the header content, along with the 
+spacing - space between did not make a difference */
