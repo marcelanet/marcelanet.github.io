@@ -56,7 +56,7 @@ body {
 #layout {
     width: 100%;
     font-size: 24px;
-    height: 200vh;
+    
 }
 #navbar {
     position: sticky;
@@ -78,6 +78,7 @@ body {
     font-size: 100px;
     font-family: libre baskerville;
     font-style: italic;
+    margin-left: 50px;
 }
 
 #footer {
@@ -93,6 +94,7 @@ body {
     font-size: 12px;
     padding: 24px;
     margin: 50px;  
+    margin-left: 100px;
 }
 span {
     font-size: 15px;
@@ -153,7 +155,7 @@ h2, h4, h5 {
     flex: 1;
     text-align: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) and (min-width: 480px) {
     #navbar {
         flex-direction: column;
         align-items: center;
@@ -161,6 +163,12 @@ h2, h4, h5 {
     }
     #navbar #logo {
         margin-right: 30px;
+        padding: 0px;
+        margin: 5px;
+    }
+    #navbar a {
+        padding: 0px;
+        margin: 5px;
     }
     #navbar .cta-button {
         background-color: white;
@@ -173,7 +181,19 @@ h2, h4, h5 {
         text-align: center;
         margin-right: 24px;
         margin-bottom: 8px;
+        margin: 5px;
     }
+    #footer-navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer-navbar a {
+        padding: 0px;
+        margin: 5px;
+    }
+
+    /* menu */
     #two-columns {
         flex-direction: column;
     }
@@ -186,8 +206,43 @@ h2, h4, h5 {
         flex-direction: column;
         align-items: center;
     }
-    h5 {
-        display: none;
+    #menu-hero {
+        width: auto;
+        height: 300px;
+        background-size: cover;
+    }
+    #menu-hero #text {
+        margin-top: 80px;
+        padding: 2px; 
+        border-radius: 3px;  
+    }
+    #text h2 {
+        font-size: 18px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    #text h5 {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #text h4 {
+        font-size: 18px;
+        margin-bottom: 1px;
+        margin-top: 0px;
+    }
+    #text {
+        text-align: left;
+        color: #ef683b;
+        font-weight: bold;
+        background-color: white;
+        margin-right: 300px;  
+        margin-top: 300px;
+        margin-left: .5px;
+    }
+    #two-columns {
+        width: auto;
+        background-size: cover;
     }
     #footer-navbar {
         flex-direction: column;
@@ -196,6 +251,3 @@ h2, h4, h5 {
     }
 }
 
-/* flex direction and aling items did not work in the footer-navbar 
-not sure why, also having issues aligning the header content, along with the 
-spacing - space between did not make a difference */
