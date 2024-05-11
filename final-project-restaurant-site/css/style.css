@@ -7,6 +7,7 @@
 body {
     margin: 0px;
     font-family: libre baskerville;
+    background-color: #453e2b;
 }
 #navbar {
     background: 
@@ -40,6 +41,21 @@ body {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+    transition: 
+        backround-color .5s,
+        color .5s,
+        font .5s,
+        font-style .5s,
+        font-weight .5s,
+}
+.links:hover {
+    color: #ef683b;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 3px;
+    background-color: #ffffff;
+    border: solid 2px #ef683b;
+    border-radius: 8px;
 }
 
 #navbar .cta-button {
@@ -52,6 +68,7 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+    margin-left: 24px;
 }
 #layout {
     width: 100%;
@@ -95,18 +112,30 @@ body {
     padding: 24px;
     margin: 50px;  
     margin-left: 100px;
+    transition: 
+        backround-color .5s,
+        color .5s,
+        font .5s;
+}
+#footer a:hover {
+        color: #ef683b;
+        font-style: italic;
+        font-weight: bolder;
+        padding: 3px;
+        background-color: #ffffff;
+        border: solid 2px #ef683b;
+        border-radius: 8px;
 }
 span {
     font-size: 15px;
 }
-
 #menu-hero {
     background-image: url(../images/menu-hero.jpg);
     background-size: cover;
     height: 100vh;
     background-position: bottom;
     align-items: center;
-    border: 2px solid white;
+    border: 2px solid #f2ebbf;
     font-family: libre baskerville;
     font-style: italic;
 }
@@ -115,7 +144,7 @@ span {
     text-align: left;
     color: #ef683b;
     font-weight: bold;
-    background-color: white;
+    background-color: #f2ebbf;
     margin-right: 400px;  
     margin-top: 400px;
     padding: 2px;
@@ -136,6 +165,7 @@ h2, h4, h5 {
     width: 250px;
     height: 275px;
     object-fit: cover; 
+    border: solid 3px #ef683b;
     
 }
 
