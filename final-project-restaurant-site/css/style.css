@@ -115,7 +115,9 @@ body {
     transition: 
         backround-color .5s,
         color .5s,
-        font .5s;
+        font .5s,
+        font-style .5s,
+        font-weight .5s;
 }
 #footer a:hover {
         color: #ef683b;
