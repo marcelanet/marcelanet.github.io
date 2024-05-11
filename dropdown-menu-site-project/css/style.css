@@ -42,6 +42,7 @@ body {
 
 .dropdown-container {
     position: relative;
+    margin-right: 24px;
 }
 
 .dropdown-menu {
@@ -81,6 +82,8 @@ body {
 
 img {
     width: 300px;
+    height: 400px;
+    object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -122,10 +125,6 @@ p {
     #navbar #logo {
         margin-right: 0px;
     }
-    
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
-
-}
 
